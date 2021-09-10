@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+
+
+title: 我的部落格  #輸入部落格標題
+subtitle: 一個抒發本人心情的地方  #輸入副標題
+description:  #輸入網站描述 
+keywords:  #輸入網站關鍵字(以逗號隔開)，方便 SEO 
+author: 王小明  #輸入姓名或暱稱
+language: zh-TW  #輸入您所使用的語言
+timezone:  #留空以使用系統時間
