@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Xiang-Xiang's Website</title>
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -17,6 +18,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+
   <body>
     <header class="header">
       <div class="header__content">
@@ -48,9 +50,9 @@
                 Expereince
               </a>
             </li>
-            <li class="header__link-wrapper">
+ <!--            <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
+            </li> -->
 
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -82,9 +84,6 @@
               <a href="./index.html#projects"> Projects </a>
             </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
           </ul>
         </div>
       </div>
@@ -99,7 +98,7 @@
         </div>
         <div class="home-hero__cta">
           <a href="https://github.com/johnny890122/johnny890122.github.io/blob/main/resume.pdf" 
-             class="btn btn--bg">SEE MY RESUME</a>
+             class="btn btn--bg" target="_blank">SEE MY RESUME</a>
         </div>
       </div>
 
@@ -128,8 +127,8 @@
                 <strong>contact</strong> me here.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
+            <a href="mailto: r11323007@ntu.edu.tw" class="btn btn--med btn--theme dynamicBgClr"
+              >Email Me!</a
             >
           </div>
           <div class="about__content-skills">
@@ -169,13 +168,9 @@
           <!-- Project 1 -->
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+              <img src="assets/gif/team.gif" style="height: 100%; width: 100%; object-fit: contain" />
             </div>
+
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">球隊管理</h3>
               <p class="projects__row-content-desc">
@@ -194,8 +189,7 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
+                src="./assets/png/vaccine.png"
                 class="projects__row-img"
                 loading="lazy"
               />
@@ -218,8 +212,7 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
+                src="./assets/png/warrior.png"
                 class="projects__row-img"
                 loading="lazy"
               />
@@ -257,8 +250,7 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
+                src="./assets/png/shopee.png"
                 class="projects__row-img"
                 loading="lazy"
               />
@@ -276,7 +268,6 @@
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
@@ -286,27 +277,30 @@
               <p class="projects__row-content-desc">
                 Description for this project
               </p>
+            </div>
+          </div>
 
-              
-              <a
-                href="https://www.ios.sinica.edu.tw/fellow/yschiang"
-                target="_blank"
-                >Prof</a
-              >
-
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >VIEW FULL POSTER</a
-              >
+          <!-- Experience 3 -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Teaching Assistant, National Taiwan University</h3>
+              <p class="projects__row-content-desc">
+                Description for this job. 
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact sec-pad dynamicBg">
+<!--     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
@@ -356,7 +350,8 @@
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
+
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
@@ -379,33 +374,14 @@
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
+
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Xiang-Xian Zhang</h4>
             <p class="main-footer__short-desc">
               &copy; 2022 Xiang-Xian Zhang. All Rights Reserved.
+              Email: r11323007@ntu.edu.tw
             </p>
           </div>
         </div>
