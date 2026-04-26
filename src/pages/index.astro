@@ -27,19 +27,19 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hsiang-Hsien Chang"
+					tagline="Product Manager | Payment Solutions | Data-Driven Strategy"
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="strategy" size="1.33em" /> Product</Pill>
+						<Pill><Icon icon="trophy" size="1.33em" /> Payments</Pill>
+						<Pill><Icon icon="terminal-window" size="1.33em" /> Data</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Hsiang-Hsien Chang portrait"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
@@ -53,7 +53,11 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>
+						A Product Manager with 1.5+ years of experience in the FinTech and payments space,
+						skilled at owning the end-to-end product lifecycle from 0-to-1. Below are selected
+						roles where I translated market analysis and user feedback into data-driven roadmaps.
+					</p>
 				</header>
 
 				<div class="gallery">
@@ -78,17 +82,23 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Recognition</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						Academic awards and collaborations earned throughout my economics research and
+						product career.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							[
+								'Taiwan Economic Association',
+								'Bank of Taiwan',
+								'NTU Economics',
+								'MobLab',
+								'Gensler',
+							].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>

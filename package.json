@@ -1,7 +1,8 @@
 {
-  "name": "density-disk",
+  "name": "johnny890122-portfolio",
   "type": "module",
   "version": "0.0.1",
+  "author": "Hsiang-Hsien Chang <j087061439@gmail.com>",
   "engines": {
     "node": ">=22.12.0"
   },
